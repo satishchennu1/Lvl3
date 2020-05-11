@@ -13,8 +13,8 @@ pipeline {
         
     stage('Install dependencies') {
       steps {
-        sh 'cd Option1'
-        sh 'npm install'
+        
+        sh 'npm install npm@latest -g'
       }
     }
      
