@@ -20,8 +20,7 @@ pipeline {
      
     stage('Test') {
       steps {
-         sh './Option1/scripts/test.sh'
-         sh 'npm test'
+        sh 'npm test'
       }
     }      
   }
